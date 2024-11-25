@@ -597,3 +597,4 @@ must apply it to call the script into action.
 4. This will call initApp after the DOM content has loaded and your app will be started.
 */
 
+document.addEventListener('DOMContentLoaded', initApp);
